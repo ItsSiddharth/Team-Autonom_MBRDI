@@ -8,7 +8,7 @@ HEIGHT = 256
 LR = 0.01
 MODEL_NAME = "cyclist-CNN-4.model"
 
-image = cv2.imread("test_img.png")
+image = cv2.imread("testingped1.jpeg")
 
 
 

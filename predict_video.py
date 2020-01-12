@@ -24,6 +24,7 @@ while True:
 	label = prediction[0]
 	cv2.rectangle(image, (int(label[1]*2), int(label[0]*2)), (int(label[3]*2)+10, int(label[2]*2)), (255,0,0), 2)
 	cv2.imshow('frame', image)
+	time.sleep(0.3)
 	if cv2.waitKey(1) &  0xFF == ord("q"):
 		break
 cap.release()

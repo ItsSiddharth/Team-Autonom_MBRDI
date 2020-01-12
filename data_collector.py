@@ -2,13 +2,12 @@ import cv2
 import os
 import json
 import numpy as np
-import shutil 
 
 
 final_list = []
 
 #"/home/ubuntu/tdcb_leftImg8bit_train/leftImg8bit/train/tdcb_labelData_train/labelData/train/tsinghuaDaimlerDataset/"
-def load_labels(filename, json_folder_path="/home/antpc/tdcb_labelData_train/labelData/train/tsinghuaDaimlerDataset/"):
+def load_labels(filename, json_folder_path="path/to/dataset/json"):
     annotation_data, meta_data, intermidiate_data = [],[],[]
     json_files = [ x for x in os.listdir(json_folder_path) if x == filename ]
     json_data = list()
@@ -25,7 +24,7 @@ def load_labels(filename, json_folder_path="/home/antpc/tdcb_labelData_train/lab
     return annotation_data[0]
     
     
-def load_images_from_folder (folder='/home/antpc/Object_detection/images/train/'):
+def load_images_from_folder (folder='path/to/images'):
     images = []
     for filename in os.listdir(folder):
         try :
