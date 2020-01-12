@@ -16,3 +16,6 @@ $ python3 predictor.py
 ## Dataset Used
 <a href="http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/Tsinghua-Daimler_Cyclist_Detec/tsinghua-daimler_cyclist_detec.html">`Tsinghua-Daimler Cyclist Detection Benchmark Dataset`</a>
 
+## Architecture 
+<img src="model_summary.png" hieght="400" width="200" title="Model Summary">
+
