@@ -6,7 +6,7 @@ Repository for work on MBRDI 2019-20 Hackathon
 ```
 $ pip3 install -r requirements.txt 
 ```
-2. Download the model file from the <a href="google.com">here</a> link and please save it in the folder which you clone the repository to.
+2. The `custom model` used is the `cyclist-CNN_custom_architecture.model` file.
 > Specification of model is discussed below.
 3. For performing inference use the predictor.py (for image) or prediction_video.py (for video) 
 ```
