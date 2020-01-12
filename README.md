@@ -18,6 +18,10 @@ $ python3 predictor.py
 ## Dataset Used
 <a href="http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/Tsinghua-Daimler_Cyclist_Detec/tsinghua-daimler_cyclist_detec.html">`Tsinghua-Daimler Cyclist Detection Benchmark Dataset`</a>
 
+## Dataset Specifications
+<img src="./data_specification.jpeg" hieght="600" width="600" title="Dataset Specification">
+
 ## Architecture 
 <img src="./model_summary.png" hieght="600" width="600" title="Model Summary">
+
 
