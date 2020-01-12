@@ -3,13 +3,13 @@ import tensorflow as tf
 import numpy as np
 import time
 
-model = tf.keras.models.load_model("cyclist-CNN-4.model")
+model = tf.keras.models.load_model("cyclist-CNN_custom_architecture.model")
 WIDTH = 256
 HEIGHT = 256
 LR = 0.01
 MODEL_NAME = "cyclist-CNN-4.model"
 
-cap = cv2.VideoCapture("WhatsApp Video 2020-01-05 at 00.30.56.mp4")
+cap = cv2.VideoCapture("test.mp4")
 
 while True:
 	_, image = cap.read()
@@ -23,7 +23,6 @@ while True:
 	print(prediction[0])
 	label = prediction[0]
 	cv2.rectangle(image, (int(label[1]*2), int(label[0]*2)), (int(label[3]*2)+10, int(label[2]*2)), (255,0,0), 2)
-	time.sleep(0.3)
 	cv2.imshow('frame', image)
 	if cv2.waitKey(1) &  0xFF == ord("q"):
 		break

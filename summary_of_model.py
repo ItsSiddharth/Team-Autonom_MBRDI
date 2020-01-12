@@ -1,5 +1,5 @@
 import tensorflow as tf
 
-model = tf.keras.models.load_model("cyclist-CNN-4.model")
+model = tf.keras.models.load_model("cyclist-CNN_custom_architecture.model")
 
 print(model.summary())

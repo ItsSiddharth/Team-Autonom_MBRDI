@@ -68,5 +68,5 @@ model.compile(loss='mean_squared_error',
 
 hist = model.fit(X, Y, batch_size=32, epochs=300, validation_split=0.05)
 
-model.save('cyclist-CNN-4.model')
+model.save('cyclist-CNN_custom_architecture.model')
 print(hist)
