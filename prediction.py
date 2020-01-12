@@ -2,7 +2,7 @@ import cv2
 import tensorflow as tf
 import numpy as np
 
-model = tf.keras.models.load_model("cyclist-CNN.model")
+model = tf.keras.models.load_model("cyclist-CNN-4.model")
 WIDTH = 256
 HEIGHT = 256
 LR = 0.01
