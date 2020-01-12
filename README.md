@@ -1,7 +1,7 @@
 # Team-Autonom
 Repository for work on Mercedes Benz Digital Challenge 2020 Hackathon
 
-## Usage
+## Usage (Deep Learning Version)
 1. Clone the Repository.
 2. To setup environment for running inference code. Use the requirements.txt provided in the repository.
 ```
@@ -14,7 +14,16 @@ $ pip3 install -r requirements.txt
 ```
 $ python3 predictor.py
 ```
-
+## Usage (HoG + SVM approach)
+1. Clone the Repository.
+2. To setup environment for running inference code. Use the requirements.txt provided in the repository.
+```
+$ pip3 install -r requirements.txt 
+```
+3. Run the file hogcyclist.py <name of video/photo>. 
+```
+$ python3 hogcyclist.py bicycle1.jpeg 
+```
 ## Dataset Used
 <a href="http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/Tsinghua-Daimler_Cyclist_Detec/tsinghua-daimler_cyclist_detec.html">`Tsinghua-Daimler Cyclist Detection Benchmark Dataset`</a>
 
